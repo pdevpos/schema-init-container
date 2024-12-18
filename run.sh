@@ -18,4 +18,4 @@ if [ -z "$project_name" ]; then
 fi
 git clone https://github.com/pdevpos/${project_name}-${component}.git
 cd ${project_name}-${component}
-mysql -h ${DB_HOST} -u${DB_USER} -p${DB_PASS} < schema/${component}.sql
+mysql -h ${RDB_HOST} -u${RDB_USER} -p${RDB_PASS} < schema/${component}.sql
