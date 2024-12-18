@@ -1,13 +1,13 @@
 if [ -z "$RDB_HOST" ]; then
- echo DB-HOST is missing
+ echo RDB_HOST is missing
  exit 1
 fi
 if [ -z "$RDB_USER" ]; then
- echo DB_USER is missing
+ echo RDB_USER is missing
  exit 1
 fi
 if [ -z "$RDB_PASSWORD" ]; then
- echo DB_PASS is missing
+ echo RDB_PASS is missing
  exit 1
 fi
 if [ -z "$component" ]; then
