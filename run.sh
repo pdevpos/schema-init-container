@@ -7,7 +7,7 @@ if [ -z "$RDB_USER" ]; then
  exit 1
 fi
 if [ -z "$RDB_PASSWORD" ]; then
- echo RDB_PASS is missing
+ echo RDB_PASSWORD is missing
  exit 1
 fi
 if [ -z "$component" ]; then
