@@ -1,3 +1,4 @@
+echo "schema"
 source /test/secrets.txt
 cat /test/secrets.txt
 if [ -z "$RDB_HOST" ]; then
